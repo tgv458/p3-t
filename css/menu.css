@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap");
-header {
-  display: flex;
-  flex-direction: row;
-}
-
-.image1 {
-  width: 90%;
-  height: 100px;
-}
-
 #loader {
   width: 100vw;
   height: 100vh;
@@ -63,6 +53,16 @@ header {
     opacity: 0;
   }
 }
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.image1 {
+  width: 90%;
+  height: 100px;
+}
+
 img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -79,7 +79,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* HEADER */
 .header-menu {
   display: flex;
   align-items: center;
@@ -102,8 +101,6 @@ body {
   font-family: "Shrikhand", sans-serif;
 }
 
-/* HEADER */
-/* BODY*/
 .menu-1 {
   width: 100%;
   height: 300px;

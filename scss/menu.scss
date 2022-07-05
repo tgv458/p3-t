@@ -1,12 +1,4 @@
-header{
-    display: flex;
-    flex-direction: row;
-}
-
-.image1{
-    width: 90%;
-    height: 100px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap');
 #loader {
     width: 100vw;
     height: 100vh;
@@ -40,7 +32,16 @@ header{
         opacity: 0;
     }
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.image1{
+    width: 90%;
+    height: 100px;
+}
+
 
 img
 {
@@ -58,7 +59,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* HEADER */
+
 .header-menu {
     display: flex;;
     align-items: center;
@@ -81,9 +82,7 @@ body {
     font-family: "Shrikhand", sans-serif;
 }
 
-/* HEADER */
 
-/* BODY*/
 
 .menu-1 {
     width: 100%;
@@ -209,6 +208,7 @@ body {
     }
 
 }
+ 
 
 .menu__plat-description {
     margin-block-end: 0;
