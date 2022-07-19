@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/Style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap" >
 	<div id="loader">
 		<div class="loader__box">
 			<i class="fa-solid fa-circle-notch fa-3x fa-spin"></i>
@@ -22,7 +23,7 @@
             <div class="navigation">
                 <h1 class="header-premier__titre">Réservez le menu qui vous convient</h1>
                 <p class="header-premier__texte">Découvrez des restaurants d'exception,<br>sélectionnés pas nos soins.</p>
-                <a href="menu1.html" class="bouton bouton--violet">
+                <a href="menu.html" class="bouton bouton--violet">
                     <span class="navigation__blanc">Explorer nos restaurants</span>
                 </a>
             </div>
@@ -32,22 +33,25 @@
 	<section class="fct">
 		<h2 class="fct__titre">Fonctionnement</h2>
 		<div class="fct__carte">
+			<span class="fct__nombre">1</span>
 			<a class="fct__box">
-				<span class="fct__nombre">1</span>
+				
 				<div class="fct__choix">
 					<i class="fct__icone fa-solid fa-mobile-screen-button"></i>
 					<span class="fct__texte">Choisissez un restaurant</span>
 				</div>
 			</a>	
+			<span class="fct__nombre">2</span>
 			<a class="fct__box">
-				<span class="fct__nombre">2</span>
+				
 				<div class="fct__choix">
 					<i class="fct__icone fa-solid fa-list-ul"></i>
 					<span class="fct__texte">Composez votre menu</span>
 				</div>
 			</a>	
+			<span class="fct__nombre">3</span>
 			<a class="fct__box">
-				<span class="fct__nombre">3</span>
+			
 				<div class="fct__choix">
 					<i class="fct__icone fa-solid fa-store"></i>
 					<span class="fct__texte">Dégustez au restaurant</span>
@@ -58,15 +62,17 @@
     <section>
 		<div class="restaurants">
 			<h2 class="restaurants__titre">Restaurants</h2>
-
+<div class="box-pc">
 			<a href="menu.html">
 				<div class="restaurants__box">
 						<img class="restaurants__images" src="./assets/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
+						<div class="restaurant__box-texte">
 					<h2>La palette du goût</h2>
-					<div class="restaurant__box-texte">
+					<div class="restaurant__box-texte1">
 						<p>Ménilmontant</p>
 						<span class="restaurantbox-coeur"><i class="restaurantscoeur fa-regular fa-heart"></i><i class="restaurantscoeur fa-solid fa-heart"></i></span>
 					</div>
+						</div>
 					<span class="restaurants__nouveau">Nouveau</span>
 				</div>
 			</a>
@@ -74,36 +80,41 @@
 			<a href="menu2.html">
 				<div class="restaurants__box">
 						<img class="restaurants__images" src="./assets/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
+						<div class="restaurant__box-texte">
 					<h2>La note enchantée</h2>
-					<div class="restaurant__box-texte">
+					<div class="restaurant__box-texte1">
 						<p>Charonne</p>
 						<span class="restaurantbox-coeur"><i class="restaurantscoeur fa-regular fa-heart"></i><i class="restaurantscoeur fa-solid fa-heart"></i></span>
 					</div>
 					<span class="restaurants__nouveau">Nouveau</span>
 				</div>
+				</div>
+			</div>
 			</a>
 			
 			<a href="menu3.html">
 				<div class="restaurants__box">
 						<img class="restaurants__images" src="./assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
+						<div class="restaurant__box-texte">
 					<h2>À la française</h2>	
-					<div class="restaurant__box-texte">
+					<div class="restaurant__box-texte1">
 						<p>Cité Rouge</p>
 						<span class="restaurantbox-coeur"><i class="restaurantscoeur fa-regular fa-heart"></i><i class="restaurantscoeur fa-solid fa-heart"></i></span>
 					</div>
-					
+						</div>
 				</div>
 			</a>
 			
 			<a href="menu4.html">
 				<div class="restaurants__box">
 						<img class="restaurants__images" src="./assets/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
-					<h2>Le délice des sens</h2>
-					<div class="restaurant__box-texte">
+						<div class="restaurant__box-texte">
+						<h2>Le délice des sens</h2>
+						<div class="restaurant__box-texte1">
 						<p>Folie-Méricourt</p>
 						<span class="restaurantbox-coeur"><i class="restaurantscoeur fa-regular fa-heart"></i><i class="restaurantscoeur fa-solid fa-heart"></i></span>
 					</div>
-					
+						</div>
 				</div>
 			</a>
 		</div>
@@ -112,10 +123,10 @@
 <footer>
 	<div class="footer-text"> 
 		<img class="logo__footer" src="./assets/logo/ohmyfood@2x.svg" alt="logoOhMyFood">
-		<a href="#" class=""><i class="fa-solid fa-utensils"></i><p>Proposer un restaurant</p></a>
-        <a href="#" class=""><i class="fa-solid fa-handshake-angle"></i><p>Devenir partenaire</p></a>
-		<a href="#" class=""><p>Mentions légales</p></a>
-		<a href="mailto:ohmyfoods@hotmail.fr" class=""><p>Contact</p></a>
+		<a href="#" class=""><i class="logo1 fa-solid fa-utensils"></i>Proposer un restaurant</a>
+        <a href="#" class=""><i class="logo2 fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+		<a href="#" class="">Mentions légales</a>
+		<a href="mailto:ohmyfoods@hotmail.fr" class="">Contact</a>
 	</div>
     
         
