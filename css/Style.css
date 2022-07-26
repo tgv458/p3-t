@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.fct__titre, .header-logo, .restaurants__titre, .logo__footer {
+  font-family: "Shrikhand", sans-serif;
+}
+
 #loader {
   width: 100vw;
   height: 100vh;
@@ -79,7 +87,8 @@ header {
 
 .fct__titre {
   width: 90%;
-  margin-left: 25PX;
+  margin-left: 50PX;
+  font-size: 50px;
 }
 
 .fct__box {
@@ -94,13 +103,14 @@ header {
   background-color: #f2f2f2;
   margin-bottom: 25px;
   position: relative;
+  box-shadow: 6px 6px 6px rgba(87, 87, 87, 0.2);
 }
 
-.fct__nombre:nth-child(1) {
+.fct__nombre:nth-of-type(1) {
   font-size: 50px;
   position: absolute;
-  left: 1rem;
-  top: 35rem;
+  left: 1.4rem;
+  top: 40rem;
   border-radius: 50%;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -109,13 +119,14 @@ header {
   text-align: center;
   background-color: #ae76f1;
   color: white;
+  z-index: 99;
 }
 
-.fct__nombre:nth-child(5) {
+.fct__nombre:nth-of-type(2) {
   font-size: 50px;
   position: absolute;
-  left: 1rem;
-  top: 53rem;
+  left: 1.4rem;
+  top: 50rem;
   border-radius: 50%;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -124,13 +135,14 @@ header {
   text-align: center;
   background-color: #ae76f1;
   color: white;
+  z-index: 99;
 }
 
-.fct__nombre:nth-child(3) {
+.fct__nombre:nth-of-type(3) {
   font-size: 50px;
   position: absolute;
-  left: 1rem;
-  top: 44rem;
+  left: 1.4rem;
+  top: 59.5rem;
   border-radius: 50%;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -139,21 +151,22 @@ header {
   text-align: center;
   background-color: #ae76f1;
   color: white;
+  z-index: 99;
 }
 
 .fct__choix {
   height: 100px;
   font-size: 50px;
-  padding-top: 1rem;
-  padding-left: 25%;
+  padding-top: 1.7rem;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .fct__icone {
-  left: 3rem;
-  position: absolute;
   color: gray;
-  top: 2rem;
+  margin-right: 40px;
 }
 
 .fct__box :hover {
@@ -175,17 +188,22 @@ header {
 }
 
 .restaurants__titre {
-  margin-left: 25px;
+  margin-left: 65px;
+  padding-top: 50px;
+  font-size: 50px;
 }
 
 .restaurants__box {
-  border: 3px solid black;
+  background: white;
   border-radius: 25px;
   height: 500px;
   width: 90%;
   margin-left: 25px;
-  margin-bottom: 25px;
   position: relative;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  box-shadow: 6px 6px 6px rgba(87, 87, 87, 0.2);
 }
 
 .restaurants__nouveau {
@@ -201,6 +219,15 @@ header {
   position: absolute;
   right: 1rem;
   top: 370px;
+}
+
+.menu-carte {
+  padding-bottom: 25px;
+  margin-left: 40px;
+}
+
+.menu-carte:nth-of-type(4) {
+  padding-bottom: 100px;
 }
 
 .restaurantscoeur {
@@ -261,18 +288,12 @@ footer a {
   padding: 15px;
   background: linear-gradient(360deg, #9356dc 3%, #ff79da 97%);
   color: white;
-  transition: all 1s;
 }
 
 a {
   display: block;
   text-decoration: none;
   color: inherit;
-}
-
-.navigation__blanc:hover {
-  font-size: 45px;
-  transition: all 1s;
 }
 
 .header-premier__texte {
@@ -309,4 +330,24 @@ a {
 
 .logo2 {
   margin-right: 10px;
+}
+
+@media (min-width: 1201px) {
+  .menu-carte {
+    width: 24%;
+    margin-left: 0px;
+  }
+  .menu-box {
+    display: flex;
+    flex-direction: row;
+  }
+  .restaurants__images {
+    height: 300px;
+  }
+  .restaurant__box-texte {
+    margin-left: 0px;
+  }
+  .restaurantbox-coeur {
+    top: 420px;
+  }
 }/*# sourceMappingURL=Style.css.map */
